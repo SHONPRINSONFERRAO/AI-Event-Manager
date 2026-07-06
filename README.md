@@ -23,7 +23,7 @@ graph TD
     MemorySystem --> |Retrieve preferences| Orchestrator
     Orchestrator --> |Inject Memory & Prompt| PlannerAgent[Planner Agent]
     
-    subgraph Multi-Agent Collaboration (ADK 2.0)
+    subgraph Multi-Agent Collaboration - ADK 2.0
         PlannerAgent -->|start_subagent| BudgetAgent[Budget Agent]
         PlannerAgent -->|start_subagent| VenueAgent[Venue Agent]
         PlannerAgent -->|start_subagent| TimelineAgent[Timeline Agent]
