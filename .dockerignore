@@ -1,0 +1,9 @@
+.env
+.git
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+node_modules/
+.venv/
+venv/

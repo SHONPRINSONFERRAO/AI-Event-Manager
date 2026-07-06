@@ -1,0 +1,10 @@
+google-antigravity
+streamlit
+python-dotenv
+pydantic
+protobuf
+uvicorn
+ipykernel
+ipywidgets
+fpdf2
+icalendar
